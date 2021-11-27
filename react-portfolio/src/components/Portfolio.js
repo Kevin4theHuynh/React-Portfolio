@@ -1,11 +1,25 @@
 import React from "react";
+import { projects } from "../Data";
 
 function Portfolio() {
     return (
         <section>
-            <h5>Pet Adoptions</h5>
-            <a href = "https://ljbrewer.github.io/AnimalAdoptions/"></a>
+            <div>
+                <h1>Built Projects</h1>
+                {projects.map((projects) => (
+                    <><h3>{projects.title}</h3><div>
+                        {projects.description}
+
+                        {projects.link}
+                    </div></>
+
+
+            ))}
+            </div>
+
         </section>
+
+
 
     )
 

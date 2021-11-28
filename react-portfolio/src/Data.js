@@ -1,4 +1,6 @@
 // List of projects 
+
+
 export const projects = [
     {
         title: "Animal Adoptions",

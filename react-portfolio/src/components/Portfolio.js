@@ -1,10 +1,9 @@
 import React from "react";
 import { projects } from "../Data";
 import '../styles/Portfolio.css'
+ 
 
 function Portfolio() {
-
-
     return (
         <section>
             <div>
@@ -17,21 +16,17 @@ function Portfolio() {
                         <p>
                             {projects.link}
                         </p>
+                        <div>
+                            <img src= {projects.image}
+                            alt="Project Logos"
+                            ></img>
+                        </div>
 
                     </div></>
-
-
             ))}
             </div>
-
         </section>
-
-
-
     )
-
-
-    
 }
 
 export default Portfolio;

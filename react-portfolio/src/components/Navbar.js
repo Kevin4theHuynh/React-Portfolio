@@ -4,7 +4,7 @@ import React from 'react'
 function Navbar() {
     return (
     <header>
-        <h1>Kevin Huynh<span class="seo"></span></h1>
+        <h1>Kevin Huynh</h1>
         <nav>
             <ul>
                 <li>

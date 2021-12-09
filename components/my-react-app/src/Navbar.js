@@ -1,32 +1,29 @@
-import React from 'react';
+import React from 'react'
 
-export default function Nav() {
-  const linkStyle = { border: '1px black', padding: '5px' };
 
+export default function Navbar() {
   return (
-    <nav className="main-header-menu">
-      <section
-        style={{
-          display: 'flex',
-          fontFamily: 'helvetica',
-          flexDirection: 'row',
-          alignItems: 'flex-start',
-          justifyContent: 'flex-start',
-        }}
-      >
-        <div style={linkStyle}>
-          <a href="#">About Me</a>
-        </div>
-        <div style={linkStyle}>
-          <a href="#">Portfolio</a>
-        </div>
-        <div style={linkStyle}>
-          <a href="#">Contact</a>
-        </div>
-        <div style={linkStyle}>
-          <a href="#">Resume</a>
-        </div>
-      </section>
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark" >
+    <div className="container">
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+    
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            <a className="nav-link" style={{ color: 'white'}} href="#aboutMe">About me</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" style={{ color: 'white'}} href="#myProjects">portfolio</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" style={{ color: 'white'}} href="#contactMe">contact me</a>
+          </li>
+        </ul>
+        
+      </div>
+    
+      </div>
     </nav>
-  );
-}
+      )
+    }

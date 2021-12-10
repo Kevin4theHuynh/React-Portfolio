@@ -1,5 +1,5 @@
 # React-Portfolio
-A portfolio using react showing infomation about myself, projects that I have worked on and ways to contact me.
+A portfolio using react showing infomation about myself, projects that I have worked on and ways to contact me. Running npm start in the src folder will run the app
 
 # Langauges Used
 -HTML
@@ -8,5 +8,4 @@ A portfolio using react showing infomation about myself, projects that I have wo
 -Node.js
 
 # Demo
-![ReactPortfolioDemo](./images/ReactPortfolio.jpg)
-Link Link: 
+![ReactPortfolioDemo](./components/my-react-app/public/React.gif)
